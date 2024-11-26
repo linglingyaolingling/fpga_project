@@ -1,0 +1,12 @@
+create_clock -period 20.000 -name sys_clk [get_ports sys_clk] 
+
+set_property PACKAGE_PIN K16 [get_ports {key_in[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {key_in[1]}]
+set_property PACKAGE_PIN L14 [get_ports {key_in[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {key_in[0]}]
+set_property PACKAGE_PIN M14 [get_ports beep]
+set_property IOSTANDARD LVCMOS33 [get_ports beep]
+set_property PACKAGE_PIN U18 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
+set_property PACKAGE_PIN N16 [get_ports sys_rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]

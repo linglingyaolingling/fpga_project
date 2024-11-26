@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Mar 25 14:55:37 2024
+# Process ID: 15196
+# Current directory: E:/FPGA_projects/MicroBlaze/timer/timer.runs/timer_dlmb_v10_0_synth_1
+# Command line: vivado.exe -log timer_dlmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source timer_dlmb_v10_0.tcl
+# Log file: E:/FPGA_projects/MicroBlaze/timer/timer.runs/timer_dlmb_v10_0_synth_1/timer_dlmb_v10_0.vds
+# Journal file: E:/FPGA_projects/MicroBlaze/timer/timer.runs/timer_dlmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source timer_dlmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 413.547 ; gain = 110.902
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'xilinx:packagingInfo' : Bad end of element
+CRITICAL WARNING: [IP_Flow 19-1977] Unable to read IP file e:/vivado-library-master/ip/Zmods/ZmodDigitizerController/component.xml. This IP will not be included in the IP Catalog.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado-library-master'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2019.2/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 438.395 ; gain = 24.848
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP timer_dlmb_v10_0, cache-ID = 480d673abf7262a4.
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 25 14:55:55 2024...

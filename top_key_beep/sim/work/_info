@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/FPGA_projects/touch_led_extend/sim
+T_opt
+!s110 1727683533
+VzVH]fa;d@j?GIL5J5:=1_0
+04 15 4 work tb_top_key_beep fast 0
+=1-34cff6053359-66fa5bcb-244-3cd4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vkey_beep
+Z1 !s110 1727683491
+!i10b 1
+!s100 J>cWkMXP6>@ndf2OdRe050
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0<<MJd6R9Igb@=Afk[]<63
+Z3 dE:/FPGA_projects/top_key_beep/sim
+w1727664446
+8E:/FPGA_projects/top_key_beep/rtl/key_beep.v
+FE:/FPGA_projects/top_key_beep/rtl/key_beep.v
+!i122 4
+L0 1 31
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1727683491.000000
+!s107 E:/FPGA_projects/top_key_beep/rtl/key_beep.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/top_key_beep/rtl/key_beep.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vkey_debounce
+R1
+!i10b 1
+!s100 Wfjo<Fk^2Z_f7ObBo?7fV0
+R2
+Id:1Gh6oEdk2L?ElZGa8;m2
+R3
+w1727664452
+8E:/FPGA_projects/top_key_beep/rtl/key_debounce.v
+FE:/FPGA_projects/top_key_beep/rtl/key_debounce.v
+!i122 5
+L0 1 49
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/FPGA_projects/top_key_beep/rtl/key_debounce.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/top_key_beep/rtl/key_debounce.v|
+!i113 0
+R7
+R0
+vtb_top_key_beep
+R1
+!i10b 1
+!s100 KG>423hAK:TK7d:28kWYA1
+R2
+I5BfmD<Vcb@E^SFbjlY35]2
+R3
+w1727683354
+8E:/FPGA_projects/top_key_beep/sim/tb/tb_top_key_beep.v
+FE:/FPGA_projects/top_key_beep/sim/tb/tb_top_key_beep.v
+!i122 3
+L0 3 44
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/FPGA_projects/top_key_beep/sim/tb/tb_top_key_beep.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/top_key_beep/sim/tb/tb_top_key_beep.v|
+!i113 0
+R7
+R0
+vtop_key_beep
+R1
+!i10b 1
+!s100 lWA6i3V@dOVMH9OZ9e]eD0
+R2
+IS=]6_^9o6Oejo;_:>CWH63
+R3
+w1727664947
+8E:/FPGA_projects/top_key_beep/rtl/top_key_beep.v
+FE:/FPGA_projects/top_key_beep/rtl/top_key_beep.v
+!i122 2
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/FPGA_projects/top_key_beep/rtl/top_key_beep.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/top_key_beep/rtl/top_key_beep.v|
+!i113 0
+R7
+R0
