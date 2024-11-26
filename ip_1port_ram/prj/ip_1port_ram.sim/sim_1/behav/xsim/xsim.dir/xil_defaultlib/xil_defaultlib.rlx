@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/FPGA_projects/ip_1port_ram/prj/ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1729912905,verilog,,E:/FPGA_projects/ip_1port_ram/rtl/ip_1port_ram.v,,blk_mem_gen_0,,,,,,,,
+E:/FPGA_projects/ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/FPGA_projects/ip_1port_ram/rtl/ip_1port_ram.v,1729912430,verilog,,E:/FPGA_projects/ip_1port_ram/rtl/ram_rw.v,,ip_1port_ram,,,,,,,,
+E:/FPGA_projects/ip_1port_ram/rtl/ram_rw.v,1729910284,verilog,,E:/FPGA_projects/ip_1port_ram/sim/tb/tb_ip_1port_ram.v,,ram_rw,,,,,,,,
+E:/FPGA_projects/ip_1port_ram/sim/tb/tb_ip_1port_ram.v,1729910178,verilog,,,,tb_ip_1port_ram,,,,,,,,

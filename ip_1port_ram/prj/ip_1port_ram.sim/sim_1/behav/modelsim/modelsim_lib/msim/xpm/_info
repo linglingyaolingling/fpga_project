@@ -1,0 +1,234 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA_projects/ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim
+vasym_bwe_bb
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1729913270
+!i10b 1
+!s100 =B25XgBknCSkL87fo4K[c3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICUlW=e4Z8>C8fbB@?U=X]2
+S1
+R0
+Z4 w1605732258
+Z5 8F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+Z6 FF:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+!i122 0
+L0 8037 56
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1729913270.000000
+Z10 !s107 F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+Z11 !s90 -incr|-sv|-work|xpm|F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv|
+!i113 0
+Z12 o-sv -work xpm -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+Pvcomponents
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+w1605732256
+R0
+8F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd
+FF:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd
+l0
+L11 1
+V9:3U_H2cANb;L94J:hnfG0
+!s100 H0c[:`mBkjUc6^9aHX<U92
+OL;C;2020.4;71
+31
+!s110 1729913271
+!i10b 1
+!s108 1729913271.000000
+!s90 -93|-work|xpm|F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd|
+!s107 F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd|
+!i113 0
+o-93 -work xpm
+tExplicit 1 CvgOpt 0
+vxpm_memory_base
+R1
+R2
+!i10b 1
+!s100 :mjBZF8E5^8]2HnjVTWkL1
+R3
+IhIi]5Rk5Lk6`La?DK;F=O1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 57 7973
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_dpdistram
+R1
+R2
+!i10b 1
+!s100 ORec8YYa?0<FSWUW`ZfE20
+R3
+Ige4C>kQE35<:?T;YDF6312
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8098 136
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_dprom
+R1
+R2
+!i10b 1
+!s100 z2X?3kOcSm84hk_S]GJS<0
+R3
+IDO]6>[`V7Zn8[d^3;>fze1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8240 158
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_sdpram
+R1
+R2
+!i10b 1
+!s100 <nD6;6Xeg2WamnO3i7f[22
+R3
+IN]Ekm3d<2SQb]PGA6SZCb0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8404 161
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_spram
+R1
+R2
+!i10b 1
+!s100 fMDH^0NNUO2;1Z2YR[0cn0
+R3
+IQE9=Q]PbMCOWQazePT@4N2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8571 150
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_sprom
+R1
+R2
+!i10b 1
+!s100 Nm:XgFGZjd]KYX@aC]3=g2
+R3
+InjP;QO4:6Fez8Gf:5F6QA2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8727 138
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vxpm_memory_tdpram
+R1
+R2
+!i10b 1
+!s100 5IUEMb6LL^@0bX[fMKez00
+R3
+IS64bXOOMMU`lXNUF?gbcf0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 8871 179
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13

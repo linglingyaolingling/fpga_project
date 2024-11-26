@@ -1,0 +1,83 @@
+# do {tb_ip_1port_ram_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xpm modelsim_lib/msim/xpm 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap blk_mem_gen_v8_4_4 modelsim_lib/msim/blk_mem_gen_v8_4_4 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:27:50 on Oct 26,2024
+# vlog -incr -sv -work xpm F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+# -- Compiling module xpm_memory_base
+# -- Compiling module asym_bwe_bb
+# -- Compiling module xpm_memory_dpdistram
+# -- Compiling module xpm_memory_dprom
+# -- Compiling module xpm_memory_sdpram
+# -- Compiling module xpm_memory_spram
+# -- Compiling module xpm_memory_sprom
+# -- Compiling module xpm_memory_tdpram
+# 
+# Top level modules:
+# 	xpm_memory_dpdistram
+# 	xpm_memory_dprom
+# 	xpm_memory_sdpram
+# 	xpm_memory_spram
+# 	xpm_memory_sprom
+# 	xpm_memory_tdpram
+# End time: 11:27:50 on Oct 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:27:51 on Oct 26,2024
+# vcom -93 -work xpm F:/Vivado/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package VCOMPONENTS
+# End time: 11:27:51 on Oct 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:27:51 on Oct 26,2024
+# vlog -incr -work blk_mem_gen_v8_4_4 ../../../../ip_1port_ram.ip_user_files/ipstatic/simulation/blk_mem_gen_v8_4.v 
+# -- Compiling module STATE_LOGIC_v8_4
+# -- Compiling module beh_vlog_muxf7_v8_4
+# -- Compiling module beh_vlog_ff_clr_v8_4
+# -- Compiling module beh_vlog_ff_pre_v8_4
+# -- Compiling module beh_vlog_ff_ce_clr_v8_4
+# -- Compiling module write_netlist_v8_4
+# -- Compiling module read_netlist_v8_4
+# -- Compiling module blk_mem_axi_write_wrapper_beh_v8_4
+# -- Compiling module blk_mem_axi_read_wrapper_beh_v8_4
+# -- Compiling module blk_mem_axi_regs_fwd_v8_4
+# -- Compiling module blk_mem_gen_v8_4_4_output_stage
+# -- Compiling module blk_mem_gen_v8_4_4_softecc_output_reg_stage
+# -- Compiling module blk_mem_gen_v8_4_4_mem_module
+# -- Compiling module blk_mem_gen_v8_4_4
+# 
+# Top level modules:
+# 	blk_mem_gen_v8_4_4
+# End time: 11:27:51 on Oct 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:27:51 on Oct 26,2024
+# vlog -incr -work xil_defaultlib ../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v ../../../../../rtl/ip_1port_ram.v ../../../../../rtl/ram_rw.v ../../../../../sim/tb/tb_ip_1port_ram.v 
+# -- Compiling module blk_mem_gen_0
+# -- Compiling module ip_1port_ram
+# -- Compiling module ram_rw
+# -- Compiling module tb_ip_1port_ram
+# 
+# Top level modules:
+# 	tb_ip_1port_ram
+# End time: 11:27:51 on Oct 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 11:27:51 on Oct 26,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 11:27:51 on Oct 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
