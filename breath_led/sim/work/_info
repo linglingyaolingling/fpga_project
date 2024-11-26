@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/FPGA_projects/top_key_beep_extend/sim
+T_opt
+!s110 1728374375
+V8QDlikc>DJX5Lk<k<m10l2
+04 13 4 work tb_breath_led fast 0
+=1-34cff6053359-6704e665-12d-5c8
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vbreath_led
+!s110 1728374182
+!i10b 1
+!s100 2cV_lG;DT@HUVBC7`BTn>2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;N7;PB:0cVn`;8FT_=M6P3
+Z2 dE:/FPGA_projects/breath_led/sim
+w1728374177
+8E:/FPGA_projects/breath_led/rtl/breath_led.v
+FE:/FPGA_projects/breath_led/rtl/breath_led.v
+!i122 1
+L0 1 74
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1728374182.000000
+!s107 E:/FPGA_projects/breath_led/rtl/breath_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/breath_led/rtl/breath_led.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtb_breath_led
+!s110 1728374106
+!i10b 1
+!s100 GTS6`E8X@e_[kUWE;K`G01
+R1
+I25CAX9EK@IcijH8=kik]80
+R2
+w1728373835
+8E:/FPGA_projects/breath_led/sim/tb/tb_breath_led.v
+FE:/FPGA_projects/breath_led/sim/tb/tb_breath_led.v
+!i122 0
+L0 3 33
+R3
+R4
+r1
+!s85 0
+31
+!s108 1728374106.000000
+!s107 E:/FPGA_projects/breath_led/sim/tb/tb_breath_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/breath_led/sim/tb/tb_breath_led.v|
+!i113 0
+R5
+R0

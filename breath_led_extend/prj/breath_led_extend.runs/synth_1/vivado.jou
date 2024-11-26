@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Oct  9 23:44:41 2024
+# Process ID: 7184
+# Current directory: E:/FPGA_projects/breath_led_extend/prj/breath_led_extend.runs/synth_1
+# Command line: vivado.exe -log top_breath_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_breath_led.tcl
+# Log file: E:/FPGA_projects/breath_led_extend/prj/breath_led_extend.runs/synth_1/top_breath_led.vds
+# Journal file: E:/FPGA_projects/breath_led_extend/prj/breath_led_extend.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_breath_led.tcl -notrace

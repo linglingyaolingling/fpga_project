@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 15 09:20:00 2024
+# Process ID: 8124
+# Current directory: E:/FPGA_projects/breath_led/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2916 E:\FPGA_projects\breath_led\prj\breath_led.xpr
+# Log file: E:/FPGA_projects/breath_led/prj/vivado.log
+# Journal file: E:/FPGA_projects/breath_led/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA_projects/breath_led/prj/breath_led.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 1134.645 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1329.289 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/FPGA_projects/breath_led/prj/breath_led.srcs/constrs_1/new/breath_led.xdc]
+Finished Parsing XDC File [E:/FPGA_projects/breath_led/prj/breath_led.srcs/constrs_1/new/breath_led.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1448.066 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 1633.859 ; gain = 499.215
+set_property mark_debug true [get_nets [list sys_rst_n_IBUF]]
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'led'; it is not accessible from the fabric routing.
+set_property mark_debug true [get_nets [list led_OBUF]]
+set_property mark_debug true [get_nets [list {cnt_2ms_reg[2]} {cnt_2ms_reg[3]} {cnt_2ms_reg[4]} {cnt_2ms_reg[5]} {cnt_2ms_reg[0]} {cnt_2ms_reg[1]} {cnt_2ms_reg[6]} {cnt_2ms_reg[7]} {cnt_2ms_reg[8]} {cnt_2ms_reg[9]}]]
+set_property mark_debug true [get_nets [list {cnt_2s_reg[0]} {cnt_2s_reg[1]} {cnt_2s_reg[2]} {cnt_2s_reg[3]} {cnt_2s_reg[4]} {cnt_2s_reg[5]} {cnt_2s_reg[6]} {cnt_2s_reg[7]} {cnt_2s_reg[8]} {cnt_2s_reg[9]}]]
+set_property mark_debug true [get_nets [list {cnt_2us_reg[0]} {cnt_2us_reg[1]} {cnt_2us_reg[2]} {cnt_2us_reg[3]} {cnt_2us_reg[4]} {cnt_2us_reg[5]} {cnt_2us_reg[6]}]]
+set_property mark_debug true [get_nets [list inc_dec_flag]]
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'sys_rst_n'; it is not accessible from the fabric routing.
+save_constraints
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list sys_clk_IBUF_BUFG ]]
+set_property port_width 10 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {cnt_2ms_reg[0]} {cnt_2ms_reg[1]} {cnt_2ms_reg[2]} {cnt_2ms_reg[3]} {cnt_2ms_reg[4]} {cnt_2ms_reg[5]} {cnt_2ms_reg[6]} {cnt_2ms_reg[7]} {cnt_2ms_reg[8]} {cnt_2ms_reg[9]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 10 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {cnt_2s_reg[0]} {cnt_2s_reg[1]} {cnt_2s_reg[2]} {cnt_2s_reg[3]} {cnt_2s_reg[4]} {cnt_2s_reg[5]} {cnt_2s_reg[6]} {cnt_2s_reg[7]} {cnt_2s_reg[8]} {cnt_2s_reg[9]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 7 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {cnt_2us_reg[0]} {cnt_2us_reg[1]} {cnt_2us_reg[2]} {cnt_2us_reg[3]} {cnt_2us_reg[4]} {cnt_2us_reg[5]} {cnt_2us_reg[6]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list inc_dec_flag ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list led_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list sys_rst_n_IBUF ]]
+save_constraints
+close_design
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Oct 15 09:32:16 2024] Launched impl_1...
+Run output will be captured here: E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 2104.633 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/C306BC3FABCD
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 3543.559 ; gain = 1438.926
+set_property PROGRAM.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/breath_led.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object cnt_2us was not found in the design.
+WARNING: Simulation object cnt_2ms was not found in the design.
+WARNING: Simulation object cnt_2s was not found in the design.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes inc_dec_flag -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes inc_dec_flag -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Oct-15 09:38:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Oct-15 09:38:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/FPGA_projects/breath_led/prj/breath_led.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {cnt_2ms_reg} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Oct-15 09:39:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Oct-15 09:39:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/FPGA_projects/breath_led/prj/breath_led.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {E:/FPGA_projects/breath_led/prj/breath_led.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/FPGA_projects/breath_led/prj/breath_led.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Oct 15 09:41:13 2024] Launched synth_1...
+Run output will be captured here: E:/FPGA_projects/breath_led/prj/breath_led.runs/synth_1/runme.log
+[Tue Oct 15 09:41:13 2024] Launched impl_1...
+Run output will be captured here: E:/FPGA_projects/breath_led/prj/breath_led.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 15 09:44:34 2024...

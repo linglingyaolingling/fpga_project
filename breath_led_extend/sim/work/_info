@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/FPGA_projects/breath_led/sim
+T_opt
+!s110 1728458514
+VhWg:>n^TX<Dh@:i3>JR[31
+04 17 4 work tb_top_breath_led fast 0
+=2-34cff6053359-67062f11-3de-524
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vbreath_led
+!s110 1728458360
+!i10b 1
+!s100 ?JJ0c^FV>:P2:aR94S0L12
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4bjLOa<e9if9S5jU`4`zH2
+Z2 dE:/FPGA_projects/breath_led_extend/sim
+w1728458351
+8E:/FPGA_projects/breath_led_extend/rtl/breath_led.v
+FE:/FPGA_projects/breath_led_extend/rtl/breath_led.v
+!i122 2
+L0 1 80
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1728458360.000000
+!s107 E:/FPGA_projects/breath_led_extend/rtl/breath_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/breath_led_extend/rtl/breath_led.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtb_top_breath_led
+!s110 1728458496
+!i10b 1
+!s100 V=^dPMi_EJ[VMh9T:2:iU0
+R1
+IYB6m[GnkL`bPEWCSiL3Jg2
+R2
+w1728458485
+8E:/FPGA_projects/breath_led_extend/sim/tb/tb_top_breath_led.v
+FE:/FPGA_projects/breath_led_extend/sim/tb/tb_top_breath_led.v
+!i122 4
+L0 3 43
+R3
+R4
+r1
+!s85 0
+31
+!s108 1728458496.000000
+!s107 E:/FPGA_projects/breath_led_extend/sim/tb/tb_top_breath_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/breath_led_extend/sim/tb/tb_top_breath_led.v|
+!i113 0
+R5
+R0
+vtop_breath_led
+!s110 1728458427
+!i10b 1
+!s100 :kllM<]]A5`25]1oWm>O01
+R1
+I1G_zoJiIBAdATU7OR?@4j1
+R2
+w1728458420
+8E:/FPGA_projects/breath_led_extend/rtl/top_breath_led.v
+FE:/FPGA_projects/breath_led_extend/rtl/top_breath_led.v
+!i122 3
+L0 1 41
+R3
+R4
+r1
+!s85 0
+31
+!s108 1728458427.000000
+!s107 E:/FPGA_projects/breath_led_extend/rtl/top_breath_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/breath_led_extend/rtl/top_breath_led.v|
+!i113 0
+R5
+R0
