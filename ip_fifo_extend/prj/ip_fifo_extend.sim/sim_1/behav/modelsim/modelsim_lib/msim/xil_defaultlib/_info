@@ -1,0 +1,212 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA_projects/ip_fifo_extend/prj/ip_fifo_extend.sim/sim_1/behav/modelsim
+T_opt
+!s110 1731608059
+V7J6[3`=nIH_KWC2e`MQeS1
+04 17 4 work tb_ip_fifo_extend fast 0
+04 4 4 work glbl fast 0
+=1-34cff6053359-67363df9-163-1674
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vclk_wiz_0
+Z2 !s110 1731608050
+!i10b 1
+!s100 ^h]O?3AVi]Z^>LNWeIDl30
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]O:>mE`e<<eGTm>;Xjg>>0
+R0
+Z4 w1731605770
+8../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+!i122 0
+L0 71 23
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1731608050.000000
+Z8 !s107 ../../../../../sim/tb/tb_ip_fifo_extend.v|../../../../../rtl/ip_fifo_extend.v|../../../../../rtl/fifo_wr.v|../../../../../rtl/fifo_rd.v|../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../ip_fifo_extend.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|
+Z9 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0|../../../../ip_fifo_extend.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../../rtl/fifo_rd.v|../../../../../rtl/fifo_wr.v|../../../../../rtl/ip_fifo_extend.v|../../../../../sim/tb/tb_ip_fifo_extend.v|
+!i113 0
+Z10 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work xil_defaultlib +incdir+../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclk_wiz_0_clk_wiz
+R2
+!i10b 1
+!s100 =L]EUg5d@gceMn;@[bKLO3
+R3
+I>QSHVgmN`f]m4YUXX[JdL1
+R0
+R4
+8../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../ip_fifo_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+!i122 0
+L0 69 142
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfifo_generator_0
+R2
+!i10b 1
+!s100 [kRD[=@l<^<LMSP:^SNfO0
+R3
+IdD9Aik6c079IQZmQZ=I4n0
+R0
+w1731605692
+8../../../../ip_fifo_extend.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+F../../../../ip_fifo_extend.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+!i122 0
+L0 56 479
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfifo_rd
+R2
+!i10b 1
+!s100 J:gVPl4=F`8iR4g4N94YR1
+R3
+IK@]hcce;:_V[]<mOVEP0^3
+R0
+w1731606816
+8../../../../../rtl/fifo_rd.v
+F../../../../../rtl/fifo_rd.v
+!i122 0
+L0 1 44
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vfifo_wr
+R2
+!i10b 1
+!s100 66XG7kAR]GJmcko@hTDLm1
+R3
+I[135b34QPE[KO^`gA94l00
+R0
+w1731606504
+8../../../../../rtl/fifo_wr.v
+F../../../../../rtl/fifo_wr.v
+!i122 0
+L0 1 54
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vglbl
+R2
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R3
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+!i122 1
+L0 6 78
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R10
+R1
+vip_fifo_extend
+R2
+!i10b 1
+!s100 YESdKNoXR7Z;KOjQKWJPV0
+R3
+I]7ISIb_d9aca7l7T=V;^K0
+R0
+w1731607792
+8../../../../../rtl/ip_fifo_extend.v
+F../../../../../rtl/ip_fifo_extend.v
+!i122 0
+L0 1 75
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vtb_ip_fifo_extend
+R2
+!i10b 1
+!s100 1dJffU=;JkNLLT=?C5Vh30
+R3
+IVDa`_0Ro5R]M[aeQjog`P3
+R0
+w1731607868
+8../../../../../sim/tb/tb_ip_fifo_extend.v
+F../../../../../sim/tb/tb_ip_fifo_extend.v
+!i122 0
+L0 2 22
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1

@@ -1,0 +1,28 @@
+# do {tb_ip_fifo_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:50:33 on Nov 13,2024
+# vlog -incr -work xil_defaultlib "+incdir+../../../../ip_fifo.gen/sources_1/ip/clk_wiz_0" ../../../../ip_fifo.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v ../../../../ip_fifo.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v ../../../../ip_fifo.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v ../../../../../rtl/fifo_rd.v ../../../../../rtl/fifo_wr.v ../../../../../rtl/ip_fifo.v ../../../../../sim/tb/tb_ip_fifo.v 
+# -- Compiling module fifo_generator_0
+# -- Compiling module clk_wiz_0_clk_wiz
+# -- Compiling module clk_wiz_0
+# -- Compiling module fifo_rd
+# -- Compiling module fifo_wr
+# -- Compiling module ip_fifo
+# -- Compiling module tb_ip_fifo
+# 
+# Top level modules:
+# 	tb_ip_fifo
+# End time: 21:50:34 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:50:34 on Nov 13,2024
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 21:50:34 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

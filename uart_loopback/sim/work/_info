@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/FPGA_projects/breath_led_extend/sim
+T_opt
+!s110 1732369287
+VQnC:lX`D6LKoa>YXhzS=]3
+04 16 4 work tb_uart_loopback fast 0
+=1-34cff6053359-6741db85-1c5-b74
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vtb_uart_loopback
+!s110 1732369256
+!i10b 1
+!s100 EV[VM<g0Bb4:I_[7E2P4P1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN0N`^l1CinW8mII9RS2KP2
+Z2 dE:/FPGA_projects/uart_loopback/sim
+w1732369252
+8E:/FPGA_projects/uart_loopback/sim/tb/tb_uart_loopback.v
+FE:/FPGA_projects/uart_loopback/sim/tb/tb_uart_loopback.v
+!i122 3
+L0 3 50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1732369256.000000
+!s107 E:/FPGA_projects/uart_loopback/sim/tb/tb_uart_loopback.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/uart_loopback/sim/tb/tb_uart_loopback.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vuart_loopback
+Z6 !s110 1732369195
+!i10b 1
+!s100 G_5Z__@3UA=BoB>9^IP]E0
+R1
+I<JbgM>=MVAgJk2FVPdjP80
+R2
+w1732368247
+8E:/FPGA_projects/uart_loopback/rtl/uart_loopback.v
+FE:/FPGA_projects/uart_loopback/rtl/uart_loopback.v
+!i122 0
+L0 1 41
+R3
+R4
+r1
+!s85 0
+31
+Z7 !s108 1732369195.000000
+!s107 E:/FPGA_projects/uart_loopback/rtl/uart_loopback.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/uart_loopback/rtl/uart_loopback.v|
+!i113 0
+R5
+R0
+vuart_rx
+R6
+!i10b 1
+!s100 JTKLfQbHC9E?IoLHPNV>a2
+R1
+IeaC2EHo3QEz>dijEO@H5B0
+R2
+w1732350932
+8E:/FPGA_projects/uart_loopback/rtl/uart_rx.v
+FE:/FPGA_projects/uart_loopback/rtl/uart_rx.v
+!i122 1
+L0 1 128
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 E:/FPGA_projects/uart_loopback/rtl/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/uart_loopback/rtl/uart_rx.v|
+!i113 0
+R5
+R0
+vuart_tx
+R6
+!i10b 1
+!s100 z48<nUc=Ln5b>lP4fMocS0
+R1
+IOgN6djWoSh5LJ[l::H1kK3
+R2
+w1732365426
+8E:/FPGA_projects/uart_loopback/rtl/uart_tx.v
+FE:/FPGA_projects/uart_loopback/rtl/uart_tx.v
+!i122 2
+L0 1 97
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 E:/FPGA_projects/uart_loopback/rtl/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/uart_loopback/rtl/uart_tx.v|
+!i113 0
+R5
+R0

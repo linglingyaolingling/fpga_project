@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:E:/FPGA_projects/ip_fifo_extend/prj/ip_fifo_extend.srcs/constrs_1/new/ip_fifo_extend.xdc rfile:../../../ip_fifo_extend.srcs/constrs_1/new/ip_fifo_extend.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports sys_clk]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN N16 IOSTANDARD LVCMOS33} [get_ports sys_rst_n]
