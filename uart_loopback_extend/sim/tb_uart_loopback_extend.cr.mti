@@ -1,0 +1,29 @@
+E:/FPGA_projects/uart_loopback_extend/rtl/uart_tx.v {1 {vlog -work work -vopt -stats=none E:/FPGA_projects/uart_loopback_extend/rtl/uart_tx.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} E:/FPGA_projects/uart_loopback_extend/rtl/uart_rx.v {1 {vlog -work work -vopt -stats=none E:/FPGA_projects/uart_loopback_extend/rtl/uart_rx.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} E:/FPGA_projects/uart_loopback_extend/rtl/uart_loopback_extend.v {1 {vlog -work work -vopt -stats=none E:/FPGA_projects/uart_loopback_extend/rtl/uart_loopback_extend.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module uart_loopback_extend
+
+Top level modules:
+	uart_loopback_extend
+
+} {} {}} E:/FPGA_projects/uart_loopback_extend/sim/tb/tb_uart_loopback_extend.v {1 {vlog -work work -vopt -stats=none E:/FPGA_projects/uart_loopback_extend/sim/tb/tb_uart_loopback_extend.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_uart_loopback_extend
+
+Top level modules:
+	tb_uart_loopback_extend
+
+} {} {}}
