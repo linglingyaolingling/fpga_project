@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Oct 19 11:55:01 2024
+# Process ID: 8548
+# Current directory: E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.runs/impl_1
+# Command line: vivado.exe -log ip_clk_wiz_extend.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ip_clk_wiz_extend.tcl -notrace
+# Log file: E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.runs/impl_1/ip_clk_wiz_extend.vdi
+# Journal file: E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ip_clk_wiz_extend.tcl -notrace

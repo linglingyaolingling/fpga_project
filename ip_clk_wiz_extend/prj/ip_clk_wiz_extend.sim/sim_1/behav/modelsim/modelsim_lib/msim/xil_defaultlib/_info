@@ -1,0 +1,168 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.sim/sim_1/behav/modelsim
+T_opt
+!s110 1729306590
+V;0YF4F?=lbz@jRZdh]R8Y0
+04 20 4 work tb_ip_clk_wiz_extend fast 0
+04 4 4 work glbl fast 0
+=1-34cff6053359-67131fdd-2e8-114
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vclk_wiz_0
+Z2 !s10a 1729305734
+Z3 !s110 1729306398
+!i10b 1
+!s100 M@nfW[6Ei@NQTWjY`B4;=3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<kI9a473NG2gAHW5?o`k;2
+R0
+Z5 w1729305734
+8../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+!i122 4
+L0 72 27
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1729306398.000000
+Z9 !s107 ../../../../../sim/tb/tb_ip_clk_wiz_extend.v|../../../../../rtl/ip_clk_wiz_extend.v|../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../ip_clk_wiz_extend.gen/sources_1/ip/ila_0/sim/ila_0.v|
+Z10 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0|../../../../ip_clk_wiz_extend.gen/sources_1/ip/ila_0/sim/ila_0.v|../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../../rtl/ip_clk_wiz_extend.v|../../../../../sim/tb/tb_ip_clk_wiz_extend.v|
+!i113 0
+Z11 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -work xil_defaultlib +incdir+../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclk_wiz_0_clk_wiz
+R2
+R3
+!i10b 1
+!s100 5_6J?jm3JQ0Gl<o:1GTbz1
+R4
+ILlcFZiVJ7=I:ez0M;4OC02
+R0
+R5
+8../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+!i122 4
+L0 70 149
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vglbl
+!s110 1729306576
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R4
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+!i122 7
+L0 6 78
+R6
+R7
+r1
+!s85 0
+31
+Z13 !s108 1729306575.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R11
+R1
+vila_0
+!s10a 1729304709
+!s110 1729305299
+!i10b 1
+!s100 `Z[FeMXPjoZM>:D<;bH:=2
+R4
+I=_?[T=j0B:HMcHOMD?nF]1
+R0
+w1729304709
+8../../../../ip_clk_wiz_extend.gen/sources_1/ip/ila_0/sim/ila_0.v
+F../../../../ip_clk_wiz_extend.gen/sources_1/ip/ila_0/sim/ila_0.v
+!i122 2
+L0 49 16
+R6
+R7
+r1
+!s85 0
+31
+!s108 1729305298.000000
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vip_clk_wiz_extend
+!s10a 1729306386
+R3
+!i10b 1
+!s100 h:Pf3^S2F<Zn1XGTB:bh[3
+R4
+IlhS58[IeZX<[TDB][[N9:3
+R0
+w1729306386
+8../../../../../rtl/ip_clk_wiz_extend.v
+F../../../../../rtl/ip_clk_wiz_extend.v
+!i122 4
+L0 1 29
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtb_ip_clk_wiz_extend
+!s110 1729306575
+!i10b 1
+!s100 gHPP49d<W[U4UdnSg?TnG3
+R4
+IV@DdlkfKWi6C_J:8[JGST2
+R0
+w1729306557
+8../../../../../sim/tb/tb_ip_clk_wiz_extend.v
+F../../../../../sim/tb/tb_ip_clk_wiz_extend.v
+!i122 6
+L0 3 28
+R6
+R7
+r1
+!s85 0
+31
+R13
+R9
+R10
+!i113 0
+R11
+R12
+R1

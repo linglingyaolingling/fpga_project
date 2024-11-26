@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_projects/ip_clk_wiz_extend/rtl/ip_clk_wiz_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_clk_wiz_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_projects/ip_clk_wiz_extend/sim/tb/tb_ip_clk_wiz_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ip_clk_wiz_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA_projects/ip_clk_wiz_extend/prj/ip_clk_wiz_extend.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

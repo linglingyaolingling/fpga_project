@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep 22 10:47:03 2024
+# Process ID: 3992
+# Current directory: E:/FPGA_projects/key_led_extend/prj/key_led_extend.runs/impl_1
+# Command line: vivado.exe -log key_led_extend.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source key_led_extend.tcl -notrace
+# Log file: E:/FPGA_projects/key_led_extend/prj/key_led_extend.runs/impl_1/key_led_extend.vdi
+# Journal file: E:/FPGA_projects/key_led_extend/prj/key_led_extend.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source key_led_extend.tcl -notrace

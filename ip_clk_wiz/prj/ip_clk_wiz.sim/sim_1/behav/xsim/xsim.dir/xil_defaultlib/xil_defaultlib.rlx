@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/FPGA_projects/ip_clk_wiz/prj/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1729042179,verilog,,E:/FPGA_projects/ip_clk_wiz/rtl/ip_clk_wiz.v,,clk_wiz_0,,,../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA_projects/ip_clk_wiz/prj/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1729042179,verilog,,E:/FPGA_projects/ip_clk_wiz/prj/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA_projects/ip_clk_wiz/prj/ip_clk_wiz.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/FPGA_projects/ip_clk_wiz/rtl/ip_clk_wiz.v,1729130042,verilog,,E:/FPGA_projects/ip_clk_wiz/sim/tb/tb_ip_clk_wiz.v,,ip_clk_wiz,,,../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0,,,,,
+E:/FPGA_projects/ip_clk_wiz/sim/tb/tb_ip_clk_wiz.v,1729130373,verilog,,,,tb_ip_clk_wiz,,,../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0,,,,,
