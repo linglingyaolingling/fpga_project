@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/FPGA_projects/touch_led/sim
+T_opt
+!s110 1727489874
+VGda>laXz<BcY6=cf@MLga0
+04 19 4 work tb_touch_led_extend fast 0
+=3-34cff6053359-66f76751-3b8-1510
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vtb_touch_led_extend
+!s110 1727489865
+!i10b 1
+!s100 AI9fjHBkmn[F:kPYa<B1P3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4YzNSIK@Q9bj>TDnW2HSl1
+Z2 dE:/FPGA_projects/touch_led_extend/sim
+w1727489854
+8E:/FPGA_projects/touch_led_extend/sim/tb/tb_touch_led_extend.v
+FE:/FPGA_projects/touch_led_extend/sim/tb/tb_touch_led_extend.v
+!i122 3
+L0 2 37
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1727489865.000000
+!s107 E:/FPGA_projects/touch_led_extend/sim/tb/tb_touch_led_extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/touch_led_extend/sim/tb/tb_touch_led_extend.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtouch_led_extend
+!s110 1727489380
+!i10b 1
+!s100 27aklRm5ZQ25bBedMS8iR3
+R1
+IMLfe^>Dgn9P2QRn<f5>Ia2
+R2
+w1727488492
+8E:/FPGA_projects/touch_led_extend/rtl/touch_led_extend.v
+FE:/FPGA_projects/touch_led_extend/rtl/touch_led_extend.v
+!i122 1
+L0 1 63
+R3
+R4
+r1
+!s85 0
+31
+!s108 1727489379.000000
+!s107 E:/FPGA_projects/touch_led_extend/rtl/touch_led_extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/FPGA_projects/touch_led_extend/rtl/touch_led_extend.v|
+!i113 0
+R5
+R0
